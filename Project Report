@@ -1,1 +1,39 @@
+The app is designed to be a dynamic snooker game where players can interact with the game through various mechanics like cue aiming, power control, and ball physics.
+The game leverages the Matter.js physics engine for real-time collision detection and ball movement, allowing for a more immersive and realistic snooker experience.
+The table, balls, and pockets are all rendered with specific dimensions, and there is a well-defined user interface (UI) for managing the game.
 
+Key Features:
+
+Ball Setup and Management: 
+The game creates a variety of balls, including red and colored balls. The cue ball is also present, and players interact with it using a cue stick.
+Balls are randomly placed on the table when required.
+
+Power-ups: 
+The extension of the game includes power-ups like "Exploding Balls," "Speedy," and "Slowpoke" where their effect lasts for 5 seconds.
+These power-ups are assigned randomly to red balls. When a player collides with one of these balls, it activates the power-up:
+
+Slowpoke Rodriguez reduces the speed of all balls.
+Speedy Gonzalez doubles the speed of balls.
+Explosion increases the velocity of balls.
+
+Respawn Feature: 
+The power-up balls have a respawn feature, where they regenerate every 10 seconds. If a power-up ball is removed from the game (due to collision or other interactions), 
+it will respawn as a random last few red balls remaining on the table.
+
+Cue Mechanism: 
+The cue stick allows the player to aim at the cue ball and control its velocity by adjusting the power. 
+Players can increase or decrease the power by pressing specific keys ("A" or "D"), and the cue distance adjusts accordingly. There’s also an option to toggle the
+dragging of the cue ball for repositioning.
+
+Game Interaction: 
+Users interact with the game by dragging and dropping the cue ball, adjusting power, and activating power-ups. 
+The game's visual and interactive elements are designed to provide clear feedback on the state of power-ups, the position of the cue ball, and other dynamic elements.
+
+Unique Extension (Power-up Feature): 
+The addition of the power-up system introduces a unique layer of strategy and excitement to the game. 
+Players not only focus on precision but also on exploiting power-ups for an advantage. These power-ups significantly impact the flow of the game, 
+adding an element of unpredictability. Additionally, the respawn feature ensures that power-ups remain a dynamic part of the gameplay, requiring the player
+to continuously adapt their strategy. This makes the game more engaging, as players can plan around the power-up balls’ effects and their respawn cycles.
+
+In summary, this app not only functions as a traditional snooker game but also incorporates innovative elements such as power-ups and 
+respawn mechanics that enhance gameplay and create unique, unpredictable challenges for players. 
